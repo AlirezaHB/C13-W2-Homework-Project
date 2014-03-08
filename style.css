@@ -1,0 +1,279 @@
+body{
+  /*  background-color: #f4f4f4;*/
+  margin: 0;
+  padding: 0;
+  background:url('images/Design_Museum.jpg');
+  background-size: 100% 800px;
+  /*che konim back ground jabeja beshe?*/
+  background-attachment: fixed;
+  /*width: 1680px;
+  height: 1024px;*/
+}
+
+.row{
+  *zoom:1;
+
+}
+
+.row:before,.row:after {
+  content:" ";
+  display:table;
+}
+.row:after {clear:both;}
+.box{
+  box-sizing: border-box;
+}
+
+.container{
+  width: 980px;
+  margin: 30px auto 70px;
+}
+.r1{
+/*  position: relative;
+  height: 50px;
+  age height nadim  khata mikhore!!! chera???
+*/}
+.r1 ::selection{
+  background: #aaa;
+  color: yellow;
+}
+.r1 .box {
+float:right ;
+right: 15px;
+ /* text-align: right;*/
+ /*float=right;*/
+ /*test*/
+}
+/*che joori bedamesh samte rast!?*/
+
+.r1 .box p{
+  display: block;
+  background-color: #fd0;
+  color:black;
+  padding: 5px;
+  padding: 5px;  
+  font-size: 12px;
+}
+.r1 .box a{
+  display: block;
+}
+
+.r2 {
+  margin-top: 7px;
+  background-color: white;
+}
+.r2 .boxl{
+  float: left;
+  width: 40%;
+  padding: 20px 20px 10px 20px;
+}
+
+.r2 .boxr{
+  float: left;
+  /*width: 60%;chera kharab mishe...*/
+}
+menu{
+  margin: 0;
+  padding: 0;
+}
+menu.main li{
+  display: table;
+  float:left;
+  position: relative;
+  list-style-type: none;
+}
+menu.main li a{
+  display: block;
+  padding:5px 10px;
+  text-decoration: none;
+  color:#B2B2B6;
+  font-weight: bold;
+  font-family: aria;
+  font-size: 16px;
+  -webkit-transition:all 1000 ms;
+  transition:all 1000 ms;/*chera kar nemikone???*/
+}
+menu.main li:first-child a{
+  color:#000;  
+}
+menu.main li a:hover{
+  color:#000;  
+  -webkit-transition:all 1000 ms;
+  transition:all 1000 ms;
+}
+/*bayad hatman 2bare kar haye zir ro bokonam! rah dege i nist?*/
+menu.sub li{
+
+  display: block;
+  float:none;
+  width: 50px;
+}
+menu.sub li a{
+  display: block;
+  padding:5px 10px;
+  text-decoration: none;
+  color:#B2B2B6;
+  font-weight: bold;
+  font-family: aria;
+  font-size: 16px;
+/*  -webkit-transition:1s;
+  transition:1s;chera kar nemikone???*/
+}
+menu.sub li a{
+  font-weight: normal;
+  
+}
+menu.main li:first-child a{
+  color:#B2B2B6;
+}
+menu.main li a:hover{
+  color:#000;  
+/*   -webkit-transition:1s;
+   transition:1s;
+*/}
+.r3 {
+  margin-top: 15px;
+  background-color: white;
+}
+.r3 .boxl{
+  float: left;
+  width: 75%;
+  /*height: 300px;*/
+  padding: 20px;
+  padding-bottom: 50px;
+
+}
+div.img{
+   width: 700px;
+   height: 350px;
+   background-image: url('images/slidebar.jpg')
+
+}
+.r3 .boxr{
+  float: left;
+  width: 25%;
+  /*height: 300px;  */
+  padding: 10px;
+}
+.r3 .boxr img{
+/*  width: 220px;
+  height: 106px;
+*/
+}
+.r3 .boxr p{
+  font-family: Georgia;
+  font-size: 13px;
+  line-height: 1.6;
+  color:#555;
+}
+.r3 .boxr a{
+  font-family: Georgia;
+  font-size: 13px;
+  font-weight:700;
+  line-height: 1.6;
+  color:#333;
+  text-decoration:none;
+  border-bottom: 1px dotted black;
+  -webkit:trasition:;
+}
+.r3 .boxr a:hover{
+  background-color: #ffd62c;
+  border-bottom: 1px dotted transparent;
+}
+
+.r4{
+ background-color: white; 
+}
+.r4 .pic1{
+  float: left;
+  width: 25%;
+  /*height: 150px;/*test*/
+}
+
+.r4 .pic2{
+  float: left;
+  width: 25%;
+  /*height: 150px;/*test*/
+
+}
+
+.r4 .pic3{
+  float: left;
+  width: 25%;
+  /*height: 150px;/*test*/
+
+}
+
+.r4 .pic4{
+  float: left;
+  width: 25%;
+  /*height: 150px;/*test*/
+
+}
+.r5 {
+  background-color: #222; 
+  margin-top: 15px;
+}
+.r5 .boxl {
+  float: left;
+  width: 50%;
+  height: 300px;/*test*/    
+}
+
+.r5 .boxc {
+  float: left;
+  width: 25%;
+  height: 300px;/*test*/    
+}
+
+.r5 .boxc {
+  float: left;
+  width: 25%;
+  height: 300px;/*test*/    
+}
+/*aya be baghiye ye box ha ham bayad float bedim ke mehmoon navaz beshan ya na?*/
+
+.r6 {
+  
+  margin-top: 15px;
+}
+.r6 .boxl {
+  float: left;
+  width: 50%;
+  height: 50px;/*test*/    
+}
+
+.r6 .boxr {
+  float: left;
+  width: 50%;
+  height: 50px;/*test*/    
+}
+
+
+/*nemishe ghesmat khassi ro selection dad?  */
+
+/*start*******/
+  .container{
+      outline: 1px dotted gray;
+    }
+
+    .container > *{
+      outline: 1px dotted green;
+    }
+
+    .container > * > *{
+      outline: 1px dotted red;
+    }
+
+    .container > * > * > *{
+      outline: 1px dotted blue;
+    }
+    .container > .row > .box{
+      outline: 1px dashed black;
+    }
+
+    .container > * > * > * > *{
+      outline: 1px dotted magenta;
+    }
+
+/*end*******/
