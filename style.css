@@ -6,13 +6,11 @@ body{
   background-size: 100% 800px;
   /*che konim back ground jabeja beshe?*/
   background-attachment: fixed;
-  /*width: 1680px;
-  height: 1024px;*/
+  /*background cover chiye?*/
 }
 
 .row{
   *zoom:1;
-
 }
 
 .row:before,.row:after {
@@ -29,24 +27,22 @@ body{
   margin: 30px auto 70px;
 }
 .r1{
-/*  position: relative;
-  height: 50px;
-  age height nadim  khata mikhore!!! chera???
-*/}
-.r1 ::selection{
+}
+.r1::selection{
   background: #aaa;
   color: yellow;
 }
+
+/*chera kar nemikone???*/
+
 .r1 .box {
-float:right ;
-right: 15px;
- /* text-align: right;*/
- /*float=right;*/
- /*test*/
+float:right;
+margin-right: 20px;
 }
-/*che joori bedamesh samte rast!?*/
 
 .r1 .box p{
+  padding: 0;
+  margin: 0;
   display: block;
   background-color: #fd0;
   color:black;
@@ -60,6 +56,8 @@ right: 15px;
 
 .r2 {
   margin-top: 7px;
+  margin: 0;
+  padding: 0;
   background-color: white;
 }
 .r2 .boxl{
@@ -76,6 +74,10 @@ menu{
   margin: 0;
   padding: 0;
 }
+menu.main{
+  margin: 20px 10px;
+  padding: 0;
+}
 menu.main li{
   display: table;
   float:left;
@@ -90,54 +92,74 @@ menu.main li a{
   font-weight: bold;
   font-family: aria;
   font-size: 16px;
+  text-transform: capitalize;
   -webkit-transition:all 1000 ms;
   transition:all 1000 ms;/*chera kar nemikone???*/
 }
 menu.main li:first-child a{
   color:#000;  
 }
-menu.main li a:hover{
+menu.main li li:hover{
   color:#000;  
-  -webkit-transition:all 1000 ms;
-  transition:all 1000 ms;
+  -webkit-transition:all 1000 ms;/*chera kar nemikone???*/
+  transition:all 1000 ms;/*chera kar nemikone???*/
+}
+menu.main li:hover menu.sub{
+  display: block;
+  -webkit-transition:all 1000 ms;/*chera kar nemikone???*/
+  transition: all 700ms;/*chera kar nemikone???*/
+}
+menu.sub{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  box-shadow:0px 0px 3px #222;
+  background-color: white;
+  width: 150px;
 }
 /*bayad hatman 2bare kar haye zir ro bokonam! rah dege i nist?*/
 menu.sub li{
-
+  padding: 5px;
   display: block;
   float:none;
-  width: 50px;
 }
 menu.sub li a{
+  border-top: 1px solid #ddd;
   display: block;
   padding:5px 10px;
   text-decoration: none;
   color:#B2B2B6;
   font-weight: bold;
   font-family: aria;
-  font-size: 16px;
-/*  -webkit-transition:1s;
-  transition:1s;chera kar nemikone???*/
+  font-size: 13px;
+  -webkit-transition:all 1s;
+  transition:all 1s;/*chera kar nemikone???*/
 }
 menu.sub li a{
   font-weight: normal;
   
 }
-menu.main li:first-child a{
+menu.sub li:first-child a{
+  border-top:none;   
   color:#B2B2B6;
 }
-menu.main li a:hover{
+menu.sub li a:hover{
   color:#000;  
-/*   -webkit-transition:1s;
-   transition:1s;
-*/}
+  -webkit-transition: all 1s;
+  transition: all 1s;
+
+}
+
+
+
 .r3 {
   margin-top: 15px;
   background-color: white;
 }
 .r3 .boxl{
   float: left;
-  width: 75%;
+  width: 60%;
   /*height: 300px;*/
   padding: 20px;
   padding-bottom: 50px;
@@ -150,15 +172,18 @@ div.img{
 
 }
 .r3 .boxr{
-  float: left;
-  width: 25%;
-  /*height: 300px;  */
+  float:  right;
+  margin-right: 30px;
+  /*chrea dorost ba float leftkar nemikone 
+  va chrea arz ha ba width  70% 30 %  ya har arzi ke majmooe 100 beshe kar nemikone???
+  */
+  width: 20%;
+  /*height: 300px;*/
   padding: 10px;
 }
 .r3 .boxr img{
 /*  width: 220px;
-  height: 106px;
-*/
+  height: 106px;*/
 }
 .r3 .boxr p{
   font-family: Georgia;
@@ -231,7 +256,6 @@ div.img{
   width: 25%;
   height: 300px;/*test*/    
 }
-/*aya be baghiye ye box ha ham bayad float bedim ke mehmoon navaz beshan ya na?*/
 
 .r6 {
   
@@ -249,8 +273,6 @@ div.img{
   height: 50px;/*test*/    
 }
 
-
-/*nemishe ghesmat khassi ro selection dad?  */
 
 /*start*******/
   .container{
