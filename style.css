@@ -17,7 +17,9 @@ body{
   content:" ";
   display:table;
 }
-.row:after {clear:both;}
+.row:after {
+  clear:both;
+}
 .box{
   box-sizing: border-box;
 }
@@ -99,8 +101,8 @@ menu.main li a{
 menu.main li:first-child a{
   color:#000;  
 }
-menu.main li li:hover{
-  color:#000;  
+menu.main li:hover a{
+  color:#000;
   -webkit-transition:all 1000 ms;/*chera kar nemikone???*/
   transition:all 1000 ms;/*chera kar nemikone???*/
 }
@@ -125,6 +127,7 @@ menu.sub li{
   float:none;
 }
 menu.sub li a{
+  color:#B2B2B6; /*chera rang zir menu ha ghatiye!!!*/
   border-top: 1px solid #ddd;
   display: block;
   padding:5px 10px;
@@ -144,7 +147,7 @@ menu.sub li:first-child a{
   border-top:none;   
   color:#B2B2B6;
 }
-menu.sub li a:hover{
+menu.sub li:hover a{
   color:#000;  
   -webkit-transition: all 1s;
   transition: all 1s;
