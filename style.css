@@ -334,7 +334,7 @@ div.img{
 
 
 /*start*******/
-  .container{
+ /* .container{
       outline: 1px dotted gray;
     }
 
@@ -355,6 +355,6 @@ div.img{
 
     .container > * > * > * > *{
       outline: 1px dotted magenta;
-    }
+    }*/
 
 /*end*******/
