@@ -4,9 +4,11 @@ body{
   padding: 0;
   background:url('images/Design_Museum.jpg');
   background-size: 100% 800px;
+  background-repeat: no-repeat;
   /*che konim back ground jabeja beshe?*/
   background-attachment: fixed;
   /*background cover chiye?*/
+  background-size:cover; 
 }
 
 .row{
@@ -46,7 +48,7 @@ margin-right: 20px;
 
 .r1 .box p{
   padding: 0;
-  margin: 0;
+  margin-bottom: 4px;
   display: block;
   background-color: #fd0;
   color:black;
@@ -145,27 +147,25 @@ menu.sub li:hover a{
   color:#000 !important;  
   -webkit-transition: all 1s;
   transition: all 1s;
-
 }
-
-
 
 .r3 {
   margin-top: 15px;
   background-color: white;
 }
+
 .r3 .boxl{
   float: left;
   width: 75%;
-  /*height: 300px;*/
   padding:20px 20px 50px 20px;
 }
+
 div.img{
    width: 700px;
    height: 350px;
    background-image: url('images/slidebar.jpg')
-
 }
+
 .r3 .boxr{
   float:  right;
   /*margin-right: 30px;*/
@@ -194,7 +194,9 @@ div.img{
   color:#333;
   text-decoration:none;
   border-bottom: 1px dotted black;
-  -webkit:trasition:;
+  /*trasition:all 500ms;*/
+  display: table;
+  padding: 3px;
 }
 .r3 .boxr a:hover{
   background-color: #ffd62c;
@@ -209,8 +211,17 @@ div.img{
   float: left;
   width: 25%;
   /*height: 150px;/*test*/
+
 }
 
+.r4 .img_in{
+  background-color: #fb0;
+  width: 220px;
+  height: 140px;
+}
+.r4  img:hover {
+  opacity: 0.5;
+}
 .r4 .pic2{
   padding-left: 15px;
   float: left;
