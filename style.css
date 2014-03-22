@@ -246,17 +246,61 @@ div.img{
 }
 .r5 {
   background-color: #222; 
-  margin-top: 15px;
+   margin-top: 15px;
 }
+.r5 .boxl {
+  width: 50%;
+  float: left;
+}
+
+.r5  .pause{
+  background-repeat: no-repeat;
+  color:white;
+  margin-left: 20px;
+  margin-top: 20px;
+  border:1px solid white ;
+}
+
+.r5  .pause  img{
+  margin-top: 4px;
+  display: block;
+  float: left;
+}
+
+.r5  .pause .text{
+  display: block;
+  float: left;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.r5 .pause .header {
+  display: block;
+  float: left;
+  background-image: url('images/dots.gif');
+  height: 9px;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+
+.r5 .boxl .pause .header {
+  width: 350px;
+}
+
+.r5 .boxc .pause .header {
+  width: 100px;    
+} 
+.r5 .boxr .pause .header {
+  width: 100px;
+} 
+
 .r5 > .boxl {
   float: left;
   width: 50%;
   height: 300px;/*test*/    
 }
 
-.r5 .boxl .row1 {
-  height: 20%;
-}
+
 
 .r5 .boxl .row2 {
   height: 40%;
@@ -345,7 +389,7 @@ div.img{
 
 
 /*start*******/
- /* .container{
+  .container{
       outline: 1px dotted gray;
     }
 
@@ -366,6 +410,6 @@ div.img{
 
     .container > * > * > * > *{
       outline: 1px dotted magenta;
-    }*/
+    }
 
 /*end*******/
