@@ -71,6 +71,16 @@ margin-right: 20px;
   width: 40%;
   padding: 20px 20px 10px 20px;
 }
+.r2 .boxl img {
+  float: left;
+}
+.r2 .boxl div{
+  float: left;
+  padding: 10px 0 5px 10px;
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 14px;
+}
 
 .r2 .boxr{
   float: left;
