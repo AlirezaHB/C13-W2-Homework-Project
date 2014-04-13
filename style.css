@@ -157,7 +157,7 @@ menu.sub li:hover a{
 .r3 .boxl{
   float: left;
   width: 75%;
-  padding:20px 20px 50px 20px;
+  padding:20px 20px 20px 20px;
 }
 
 div.img{
@@ -206,22 +206,50 @@ div.img{
 .r4{
   background-color: white;
 }
-.r4 .pic1{
-  padding-left: 15px;
-  float: left;
-  width: 25%;
-  /*height: 150px;/*test*/
+.r4 .bcg {
+  background-color: #eee;
+  width: 221px;
+  height: 80px;
+  padding: 5px;
+  padding-top: 20px;
+  margin-bottom: 20px;
 
 }
+.r4 .bcg h3{
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-weight: bold;
+  font-size:16px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height:
 
+}
+.r4 .bcg p{
+  font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+  color: #888;
+  font-size:13px;
+  text-align: center;
+  padding: 0;
+  margin: 0; 
+}
 .r4 .img_in{
   background-color: #fb0;
   width: 220px;
   height: 140px;
 }
+
 .r4  img:hover {
   opacity: 0.5;
 }
+
+.r4 .pic1{
+  padding-left: 15px;
+  float: left;
+  width: 25%;
+  /*height: 150px;/*test*/
+}
+
 .r4 .pic2{
   padding-left: 15px;
   float: left;
@@ -242,8 +270,8 @@ div.img{
   float: left;
   width: 25%;
   /*height: 150px;/*test*/
-
 }
+
 .r5 {
   background-color: #222; 
    margin-top: 15px;
@@ -254,28 +282,28 @@ div.img{
   width: 50%;
 }
 
-.r5  .pause{
+.pause{
   background-repeat: no-repeat;
-  color:white;
   margin-left: 20px;
   margin-top: 20px;
   /*border:1px solid white ;*/
 }
 
-.r5  .pause  img{
+.pause  img{
   margin-top: 4px;
   display: block;
   float: left;
 }
 
-.r5  .pause .text{
+.pause .text{
   display: block;
   float: left;
   font-size: 12px;
   margin-left: 10px;
+  color:white;
 }
 
-.r5 .pause .header {
+.pause .header {
   display: block;
   float: left;
   background-image: url('images/dots.gif');
@@ -287,7 +315,21 @@ div.img{
 .r5 .boxl .pause .header {
   width: 350px;
 }
+.r4 .pause .header {
+  width: 830px;
+}
+.r4 .pause.footer .header{
+  width: 945px;
+  margin: 0;
+}
 
+
+.r4 .pause .text{
+color:#000;  
+}
+.r4 .pause {
+  margin-bottom: 20px;
+}
 
 
 .r5 .boxl .row2 {
